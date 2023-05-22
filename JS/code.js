@@ -11,3 +11,6 @@ const calculate = () =>{
 let nothing = () =>{
     view.value='';
 }
+let del =()=> {
+view.value = view.value.slice(0,-1)
+}

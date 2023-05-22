@@ -1,35 +1,77 @@
-/* .cal{
-    width: 100%;
-    height: 100vh;
+
+div{
+    padding: 10px;
+}
+.container {
+    justify-content: center;
+    align-content: center;
+    padding-left: 250px;
+    
+}
+.calculator{
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 250px;
+    width: 200px;
     background-color: beige;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-/* .calculator {
-    border-radius: 30px;
-    padding: 25px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 50px;
-    justify-content: center;
-    align-items: center;
-} */
-html,body{
-    padding:0;
-    margin:0;
-    background:whitesmoke;
+    border-radius: 20px;
+    height: 310px;
+    box-shadow: 3px 3px 3px 5px;
+    border: double 5px orangered;
+
+}
+.btn{
+    width: 30px;
+    height: 25px;
+    /* gap: 20px; */
+    margin: 5px;
+    background-color: white;
+    border: double 3px orangered;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px 1px black ;
+}
+.span-two{
+    width: 65px;
+    height:20px;
+    margin: 5px;
+    background-color: white;
+    border: double 3px orangered;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.screen{
+    height: 30px;
+    border-radius: 20px;
+    border:double 3px orangered;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.btn:hover{
+    background-color: black;
+    box-shadow: 1px 1px 1px 1px orangered;
+    color: orangered;
+}
+.span-two:hover{
+    background-color:black ;
+    box-shadow:1px 1px 1px 1px orangered;
+    color: orangered;
+}
+@media screen and (max-width: 500px) {
+    /* .calculator{
+        justify-content: center;
+        align-content: center;
+       
+        width: 200px;
+        background-color: beige;
+        border-radius: 20px;
+        height: 310px;
+        box-shadow: 3px 3px 3px 5px;
+        border: double 5px orangered;
+    
+    } */
+    .container {
+        justify-content: center;
+        align-content: center;
+        padding:auto;
+        
     }
-.inpu{
-position:relative;
-width:100%;
-padding:8px 0px;
-text-align:center;
-font-size:16px;
-font-family:arial;
-font-weight:normal;
-color:#222;
-outline:none;
-border:none;
-background:white;
 }
